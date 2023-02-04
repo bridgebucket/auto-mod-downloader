@@ -3,7 +3,7 @@
 # here are all the most important variables vvvvvv
 
 # set this path to your own download folder and make sure to add the extra backslashes
-downloadspath = "C:\\Users\\twistedtestes\\Downloads"
+downloadspath = "C:\\Users\\Viktor\\Downloads"
 
 # set this path to where the mods will go, typically youll just have to change D:\\SteamLibrary\\ to C:\\Program Files (x86)\\Steam\\
 target = "D:\\SteamLibrary\\steamapps\\common\\Blade & Sorcery\\BladeAndSorcery_Data\\StreamingAssets\\Mods"
@@ -51,6 +51,7 @@ import zipfile
 import os
 # this one is to forcefully remove files from 7zip archives
 from pyunpack import Archive
+import shutil
 
 # for every file in \downloads
 for i in os.listdir(downloadspath):
@@ -61,8 +62,8 @@ for i in os.listdir(downloadspath):
             with zipfile.ZipFile(fil, 'r') as zip_ref:
                 zip_ref.extractall(target)
         elif fil.lower().endswith('.7z'):
-            break
-        elif fil.lower().endswith('.7zip'):
-            break
+            Archive(fil).extractall(target)
         elif fil.lower().endswith('rar'):
-            break
+            Archive(fil).extractall(target)
+        else:
+            shutil.move(fil, target)
