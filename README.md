@@ -1,6 +1,6 @@
 # auto-mod-downloader
 
-shitty program that lets you put mods from ur downloads folder to ur mods folder
+## shitty program that lets you put mods from ur downloads folder to ur mods folder
 
 let me tell you a story
 
