@@ -49,7 +49,7 @@ auto-mod-downloader
 
 # Why
 
-```
+
 idk i dont like nexus mod mgr its complicated for zero reason whatsoever (or im just too retarded to use it (more likely)) so ive always downloaded blade and sorcery mods manually. well now im tired of that (awww is widdle ol vito tired?? i know one way to ease the pain :3 🔫) so i opened vscode for like 10 minutes and now this exists
 
 so
@@ -59,7 +59,7 @@ so
 yeah
 
 miao
-```
+
 
 # Installation
 
