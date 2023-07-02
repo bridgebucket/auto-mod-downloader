@@ -8,4 +8,4 @@ ex. extracts all zipped and unzipped files/folders from downloads and puts them 
 easiest way to use it is to download the .exe (in releases) and use that
 
 if u want to check out the source code then the non gui version is named carmexflavorleaks.py
-and the non gui ver is sexbomb.py
+and the gui ver is sexbomb.py
